@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import InfoBox from './InfoBox';
 import './App.css';
 import {
   MenuItem,
@@ -48,12 +49,12 @@ function App() {
         </FormControl>
       </div>
 
-      {/* Header */}
-      {/* title + select input drop down */}
+      <div className="app__stats">
+        <InfoBox title='Coronavirus cases' cases={1000} total={2000}/>
+        <InfoBox title='Recovered' cases={1000} total={2000}/>
+        <InfoBox title='Deaths' cases={1000} total={2000}/>
+      </div>
 
-      {/* infoboxes */}
-      {/* infoboxes */}
-      {/* infoboxes */}
 
       {/* table */}
       {/* graph */}

@@ -93,7 +93,6 @@ function App() {
           <Table countries={tableData} />
           <h3>Worldwide new cases</h3>
           <LineGraph />
-          {/* graph */}
         </CardContent>
       </Card>
     </div>
@@ -103,4 +102,4 @@ function App() {
 export default App;
 
 
-//2:34:31
+//3:05:21
